@@ -6,6 +6,9 @@ public class AdminVentas {
 
 	ArrayList<Vendedor> vendedores;
 
+	 public AdminVentas() {
+		 vendedores=new ArrayList<Vendedor>();
+	 }
 	public void agregar(Vendedor vendedor) {
 		vendedores.add(vendedor);
 	}

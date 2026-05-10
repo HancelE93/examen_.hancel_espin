@@ -1,52 +1,71 @@
 package com.krakedev.vendedor.entidades;
 
 public class Vendedor {
-	
-    
-    private String cedula;
-    private int numeroVentas;
-    private double sueldoFijo;
-    private double comisionPorVenta;
-	
-    
-    
-    
-    @Override
+
+	private String cedula;
+	private int numeroVentas;
+	private double sueldoFijo;
+	private double comisionPorVenta;
+	private String tipo;
+
+	@Override
 	public String toString() {
 		return "Vendedor [cedula=" + cedula + ", numeroVentas=" + numeroVentas + ", sueldoFijo=" + sueldoFijo
-				+ ", comisionPorVenta=" + comisionPorVenta + "]";
+				+ ", comisionPorVenta=" + comisionPorVenta + ", tipo=" + tipo + "]";
 	}
-	public Vendedor(String cedula) {
+
+	
+
+	public Vendedor(String cedula, String tipo) {
 		super();
 		this.cedula = cedula;
+		this.tipo = tipo;
 	}
+
+
+
 	public String getCedula() {
 		return cedula;
 	}
+
 	public void setCedula(String cedula) {
 		this.cedula = cedula;
 	}
+
 	public int getNumeroVentas() {
 		return numeroVentas;
 	}
+
 	public void setNumeroVentas(int numeroVentas) {
 		this.numeroVentas = numeroVentas;
 	}
+
 	public double getSueldoFijo() {
 		return sueldoFijo;
 	}
+
 	public void setSueldoFijo(double sueldoFijo) {
 		this.sueldoFijo = sueldoFijo;
 	}
+
 	public double getComisionPorVenta() {
 		return comisionPorVenta;
 	}
+
 	public void setComisionPorVenta(double comisionPorVenta) {
 		this.comisionPorVenta = comisionPorVenta;
 	}
 
-	public double calcularSueldo() {
-	    return sueldoFijo;
+	public String getTipo() {
+		return tipo;
 	}
-    
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public double calcularSueldo() {
+		return sueldoFijo;
+	}
+
 }

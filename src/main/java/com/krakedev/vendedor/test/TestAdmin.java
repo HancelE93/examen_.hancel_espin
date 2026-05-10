@@ -11,9 +11,9 @@ public class TestAdmin {
 		// TODO Auto-generated method stub
 
 		AdminVentas ad = new AdminVentas();
-		Vendedor v = new Vendedor("111");
-		VendedorComision vc =new VendedorComision("222");
-		VendedorMixto vm = new VendedorMixto("333");
+		Vendedor v = new Vendedor("111","V");
+		VendedorComision vc =new VendedorComision("222","C");
+		VendedorMixto vm = new VendedorMixto("333","M");
 	
         v.setSueldoFijo(500);
 
