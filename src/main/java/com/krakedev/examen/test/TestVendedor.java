@@ -1,6 +1,6 @@
-package com.krakedev.vendedor.test;
+package com.krakedev.examen.test;
 
-import com.krakedev.vendedor.entidades.Vendedor;
+import com.krakedev.examen.entidades.Vendedor;
 
 public class TestVendedor {
 

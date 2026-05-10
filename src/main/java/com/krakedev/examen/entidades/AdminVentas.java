@@ -1,4 +1,4 @@
-package com.krakedev.vendedor.entidades;
+package com.krakedev.examen.entidades;
 
 import java.util.ArrayList;
 

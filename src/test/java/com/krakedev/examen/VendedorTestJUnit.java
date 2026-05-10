@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-import com.krakedev.vendedor.entidades.Vendedor;
+import com.krakedev.examen.entidades.Vendedor;
 
 public class VendedorTestJUnit {
 
