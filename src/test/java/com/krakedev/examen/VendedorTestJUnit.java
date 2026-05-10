@@ -12,7 +12,7 @@ public class VendedorTestJUnit {
     public void testCalcularSueldo() {
 
         // Crear objeto vendedor
-        Vendedor vendedor = new Vendedor("1723456789");
+        Vendedor vendedor = new Vendedor("1723456789","V");
 
         // Asignar sueldo fijo
         vendedor.setSueldoFijo(500.0);

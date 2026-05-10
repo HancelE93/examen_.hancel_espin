@@ -12,7 +12,7 @@ public class VendedorMixtoTestJUnit {
     public void testCalcularSueldo() {
 
         // Crear objeto
-        VendedorMixto vendedor = new VendedorMixto("1723456789");
+        VendedorMixto vendedor = new VendedorMixto("1723456789","C");
 
         // Asignar valores
         vendedor.setSueldoFijo(500.0);

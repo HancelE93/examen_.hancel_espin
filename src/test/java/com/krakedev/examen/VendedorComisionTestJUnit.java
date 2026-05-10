@@ -12,7 +12,7 @@ public class VendedorComisionTestJUnit {
 	    public void testCalcularSueldo() {
 
 	        // Crear objeto
-	        VendedorComision vendedor = new VendedorComision("1723456789");
+	        VendedorComision vendedor = new VendedorComision("1723456789","V");
 
 	        // Asignar valores
 	        vendedor.setNumeroVentas(10);
